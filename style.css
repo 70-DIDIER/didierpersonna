@@ -1,0 +1,108 @@
+body{
+	font-family: 'century gothic', calibri,sans-serif;
+	font-size: 13px;
+	padding: 0px;
+	margin: 0px;
+}
+footer{
+	height: 80px;
+	text-align: center;
+	padding-top: 30px;
+	background-color: #c5c5c5c5;
+	border-top: 2px solid red;
+}
+nav{
+	width: 100%;
+	background-color: #f5689d;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: green;
+	text-transform: uppercase;
+	font-size: 15px;
+
+}
+button{
+	font-size: 16px;
+    padding: 5px 5px;
+    background-color: #f5689d;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s, background-color 0.5s ;
+	
+}
+.table{
+	display:   table ;
+	margin: 0px auto;
+}
+.menu-ind:hover, .presentation{
+border-top: 5px solid rgb(25, 45, 56, 1.150);
+background-color: rgba(64, 200,130, 0.15);
+}
+.menu-form:hover, .parcours{
+	border-top: 5px solid rgb(150, 130, 14, 12.0);
+	background-color: rgba(200, 130,64, 0.15);
+}
+.menu-prop:hover{
+	border-top: 4px solid black;
+	background-color: #d6d6d6d6;
+}
+img{
+	height: 280px;
+	width: 300px;
+}
+section{
+	width: 100%;
+	margin-bottom: 10px ;
+	padding-bottom: 10px;
+	min-height: 300px;
+}
+.sec{
+	margin: 0px 10px;
+}
+
+.left{
+	float: left;
+	width: 20%;
+}
+.right{
+	float: left;
+	width: 80%;
+}
+.sec::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+h1{
+    font-size: 28px;
+    margin: 20px 0px 0px opx;
+    text-align: center;
+    font-weight: normal;
+
+  }
+  /*ceci nous a permis de selectionner que la balise p dans le div de class right*/
+  div.right p{
+  	font-size: 28px;
+  }
+  h3{
+  	font-size: 30px;
+  }
+  .cleft, .cright, .sousleft, .sousright{
+  	width: 50%;
+  	float: left;
+  }
+  footer p{
+  	font-size: 25px;
+  }
